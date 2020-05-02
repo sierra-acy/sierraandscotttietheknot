@@ -4,9 +4,18 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
+
+/**
+* sage green: #a3b899 163, 184, 153
+* dusty blue: #5C7290 92, 114, 144
+* salmon: #FF8C91 255, 140, 145
+* marigold: #E6A756
+* dusty pink: #d59696 213, 150, 150
+* purple overlay: 55, 29, 78
+*/
 body {
-  font-family: 'Lora';
-  background-image: linear-gradient(rgba(31, 14, 46, 0.65), rgba(31, 14, 46, 0.65)), url("../img/wildflowers.jpg");
+  font-family: 'Montserrat';
+  background-image: linear-gradient(rgba(55, 29, 78, 0.40), rgba(55, 29, 78, 0.40)), url("../img/wildflowers.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -18,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Kalam';
 }
 
 p {
@@ -34,7 +43,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Kalam';
 }
 
 .site-heading .site-heading-upper {
@@ -75,8 +84,8 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  background-color: rgba(92, 114, 144, .8);
+  font-family: 'Kalam';
 }
 
 #mainNav .navbar-brand {
@@ -89,7 +98,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #E6A756;
 }
 
 @media (min-width: 992px) {
@@ -145,7 +154,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(213, 150, 150, 0.6);
 }
 
 .cta .cta-inner {
@@ -173,6 +182,16 @@ p {
   }
   .about-heading .about-heading-content {
     margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+  .standalone-heading .standalone-heading-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .top-heading .top-heading-content {
+    margin-bottom: -5rem;
     position: relative;
     z-index: 1;
   }
@@ -225,7 +244,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(92, 114, 144, 0.9);
 }
 
 .text-primary {
