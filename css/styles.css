@@ -8,10 +8,9 @@
 /**
 * sage green: #a3b899 163, 184, 153
 * dusty blue: #5C7290 92, 114, 144
-* salmon: #FF8C91 255, 140, 145
 * marigold: #E6A756
 * dusty pink: #d59696 213, 150, 150
-* purple overlay: 55, 29, 78
+* purple overlay: #371D4E 55, 29, 78
 */
 body {
   font-family: 'Montserrat';
@@ -32,18 +31,19 @@ h6 {
 
 p {
   line-height: 1.75;
+  color: #371D4E;
 }
 
 a {
-  color:#d59696;
+  color:#d59696; /* dusty pink */
 }
 
 a:visited {
-  color:#5C7290;
+  color:#5C7290; /* dusty blue */
 }
 
 a:hover {
-  color:#E6A756;
+  color:#E6A756; /* marigold */
 }
 
 .text-faded {
@@ -83,12 +83,14 @@ a:hover {
   display: block;
   font-size: 1rem;
   font-weight: 800;
+  color: #371D4E;
 }
 
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
   font-weight: 100;
+  color: #371D4E;
 }
 
 .bg-faded {
@@ -272,13 +274,17 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #E6A756;
+  border-color: #E6A756;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #df902a;
   border-color: #df902a;
+}
+
+a.btn.btn-primary.btn-xl:visited {
+  color:#FFFFFF;
 }
 
 .font-weight-light {
