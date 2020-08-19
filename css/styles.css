@@ -7,9 +7,21 @@
 
 /**
 * sage green: #a3b899 163, 184, 153
+* mint sage: #d4ebca 212, 235, 202
+* very light mint: #edffe6, 237, 255, 230
+
 * dusty blue: #5C7290 92, 114, 144
+* dusty sky: #9ab4d9 154, 180, 217
+
 * marigold: #E6A756
+* butter: #edd280 237, 210, 128
+
 * dusty pink: #d59696 213, 150, 150
+* soft coral: #ffbaba 255, 186, 186
+* dusty coral: #db9e9e 219, 158, 158
+* cherry blossom: #ebc7c7 235, 199, 199
+
+* dusty mauve: #bd86a7 168, 119, 149
 * purple overlay: #371D4E 55, 29, 78
 */
 body {
@@ -94,8 +106,9 @@ a:hover {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(237, 255, 230, 0.85);
 }
+
 
 #mainNav {
   background-color: rgba(92, 114, 144, .8);
@@ -168,14 +181,14 @@ a:hover {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(213, 150, 150, 0.6);
+  /*background-color: rgba(213, 150, 150, 0.6);*/
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(235, 199, 199, 0.85);
 }
 
 .cta .cta-inner:before {
