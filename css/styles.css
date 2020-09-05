@@ -14,7 +14,7 @@
 * dusty sky: #9ab4d9 154, 180, 217
 
 * marigold: #E6A756
-* butter: #edd280 237, 210, 128
+* butter: #ffe28c 255, 226, 140
 
 * dusty pink: #d59696 213, 150, 150
 * soft coral: #ffbaba 255, 186, 186
@@ -87,6 +87,19 @@ a:hover {
   margin-bottom: 5rem;
 }
 
+.page-section-rsvp {
+  margin-top: 2rem;
+}
+
+.page-section-story {
+  margin-bottom: 5rem;
+}
+
+.page-section-registry {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
 .section-heading {
   text-transform: uppercase;
 }
@@ -149,6 +162,11 @@ a:hover {
   padding-right: 2rem;
 }
 
+.btn-l {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
 .intro {
   position: relative;
 }
@@ -160,9 +178,9 @@ a:hover {
   }
   .intro .intro-text {
     left: 0;
-    width: 60%;
+    /*width: 60%;*/
     margin-top: 3rem;
-    position: absolute;
+    /*position: absolute;*/
   }
   .intro .intro-text .intro-button {
     width: 100%;
@@ -172,11 +190,11 @@ a:hover {
   }
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .intro .intro-text {
     width: 45%;
   }
-}
+}*/
 
 .cta {
   padding-top: 5rem;
@@ -192,6 +210,24 @@ a:hover {
 }
 
 .cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+.cta-small .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(235, 199, 199, 0.85);
+}
+
+.cta-small .cta-inner:before {
   border-radius: 0.5rem;
   content: '';
   position: absolute;
@@ -287,8 +323,8 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #E6A756;
-  border-color: #E6A756;
+  background-color: #ffe28c;
+  border-color: #ffe28c;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -297,9 +333,25 @@ a:hover {
 }
 
 a.btn.btn-primary.btn-xl:visited {
-  color:#FFFFFF;
+  color:#371D4E;
+}
+
+a.btn.btn-primary.btn-l:visited {
+  color:#371D4E;
 }
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+
+.small-padding { 
+  padding: 1rem!important;
+}
+
+.medium-padding { 
+  padding: 2rem!important;
+}
+
+.margin-top { 
+  margin-top: 2rem;
 }
