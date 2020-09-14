@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_extend.scss */
+
+/**
+ * sage: #a3b899 163, 184, 153;
+ * light sgae: #d8e8d1 216, 232, 209;
+ * soft pink: #fff2f7 ;
+*/
+
+
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1747,7 +1756,7 @@ h3 {
 
 /* line 74, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_story.scss */
 .love_story_area .weding_time_line {
-  background: #FFFAF2;
+  background: #f2faff;
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -2701,15 +2710,22 @@ h6 {
 
 /* line 357, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .progress-table {
-  background: #f9f9ff;
+  background: #f2faff;
   padding: 15px 0px 30px 0px;
-  min-width: 800px;
+  width: 50%;
+  margin-left: 25%;
 }
 
 /* line 361, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .progress-table .serial {
   width: 11.83%;
   padding-left: 30px;
+}
+
+.progress-table .event {
+  width: 50%;
+  padding-left: 30px;
+  text-align: center;
 }
 
 /* line 365, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
@@ -2720,6 +2736,11 @@ h6 {
 /* line 368, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
 .progress-table .visit {
   width: 19.74%;
+}
+
+.progress-table .time {
+  width: 50%;
+  text-align: center;
 }
 
 /* line 371, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
@@ -2749,6 +2770,8 @@ h6 {
   padding: 15px 0;
   border-top: 1px solid #edf3fd;
   display: flex;
+  justify-content: center;
+  font-size: larger;
 }
 
 /* line 391, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */
