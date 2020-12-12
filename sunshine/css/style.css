@@ -10,7 +10,14 @@
 */
 
 
+.col-md-3, .col-md-9 {
+  flex:0 0 50%;
+  max-width:50%;
+}
 
+.green_hover {
+  font-color: #a3b899;
+}
 
 .pink_text {
   font-color:#fff2f7;
@@ -86,6 +93,10 @@ a,
 button {
   color: #1F1F1F;
   outline: medium none;
+}
+
+a .white_text {
+  color:#ffffff;
 }
 
 /* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
